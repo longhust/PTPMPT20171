@@ -1,0 +1,24 @@
+{
+  "name": "serverjobscappy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "crawler": "^1.1.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.12.1"
+  }
+}
